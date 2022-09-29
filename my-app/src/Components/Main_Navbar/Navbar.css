@@ -42,6 +42,9 @@
 .menu-icon{
     display: none;
 }
+.burgerr{
+    display: none;
+}
 @media all and (min-width:320px) and (max-width:767px){
   .container>div:nth-child(3){
     display: none;
@@ -67,5 +70,11 @@
 .menu-icon:hover{
     cursor: pointer;
 }
+#logo{  
+    margin: auto;
+    height: 30px;
+    margin-top: 10px;
+}
+
 }
 
