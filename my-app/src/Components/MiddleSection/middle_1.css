@@ -1,0 +1,25 @@
+#socialIntro{
+width:90%;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+
+}
+#socialIntro div img{
+    width:100%;
+}
+@media all and (min-width:320px) and (max-width:767px){
+   #socialIntro{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   } 
+   #socialIntro div img{
+    width:80%;
+}
+#socialIntro div{
+    display: none;
+}
+#socialIntro div:nth-child(1){
+    display: block;
+}
+}

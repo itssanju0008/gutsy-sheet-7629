@@ -1,0 +1,23 @@
+.container-5{
+    background-color: #ff3755;
+    margin-top: 40px;
+    padding: 20px 0px 40px 0px;
+}
+.container-5>div:nth-child(2){
+    display: flex;
+    background-color: white;
+    width:88%;
+    margin: auto;
+    border-radius: 8px;
+    justify-content: space-around;
+    line-height: 30px;
+}
+.container-5>div:nth-child(2)>div{
+    width: 18%;
+}
+.container-5>div:nth-child(2)>div h2{
+    color: #ff3755;
+}
+.container-5>div:nth-child(1)>h1{
+    color:white
+}
