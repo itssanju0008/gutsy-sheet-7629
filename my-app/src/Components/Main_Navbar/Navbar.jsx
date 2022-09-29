@@ -2,12 +2,17 @@ import './Navbar.css'
 import {SearchIcon} from "@chakra-ui/icons"
 import Dropdown from './Dropdown'
 import {HamburgerIcon} from "@chakra-ui/icons";
+
 import { useState,useEffect } from 'react';
+
+import { useState } from 'react';
+
 
 import Items from './Dropdown-items';
 
 const Navbar=()=>{
     const [state,setState]=useState(false)
+
     const [sticky,setSticky]=useState(false);
     useEffect(() => {
         const handleScroll = () => {
@@ -17,6 +22,7 @@ const Navbar=()=>{
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
       });
+
     return (
         <div className={sticky? "container sticky":"container"}>
             <div className='menu-icon' >
