@@ -1,0 +1,45 @@
+.color{
+    color: #ff3755;
+}
+.color:hover{
+    cursor: pointer;
+    text-decoration: underline #ff3755;
+}
+.underline{
+    text-decoration: underline #ff3755;
+    padding-bottom: 10px;
+}
+.biggerOne{
+    display: flex;
+    /* justify-content: space-between; */
+    width:88%;
+    margin: auto;
+    text-align: justify;
+}
+.biggerOne>div>img{
+    width: 100%;
+}
+.smallerOne div img{
+    width:100%;
+}
+.biggerOne>div:nth-child(2){
+    width: 30%;
+    padding: 30px;
+    text-align:start;
+    align-items: center;
+    line-height: 30px;
+}
+.smallerOne{
+    width:88%;
+
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: space-between;
+    text-align: start;
+}
+.smallerOne div{
+    width:31%
+}
+
+

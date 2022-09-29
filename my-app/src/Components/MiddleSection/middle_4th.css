@@ -1,0 +1,39 @@
+.container-4>div:nth-child(2){
+    width:80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:35px;
+    margin: auto;
+    row-gap: 50px;
+}
+.container-4>div:nth-child(2)>div{
+    display: flex;
+    height: 100px;
+
+}
+.container-4>div:nth-child(2)>div>img{
+    width:auto;
+}
+.container-4 h1{
+    padding-bottom: 50px;
+}
+.container-4>div:nth-child(2)>div h3{
+    color: #ff3755;
+    margin-left: 10px;
+}
+.container-4>div:nth-child(2)>div h3:hover{
+    text-decoration: underline #ff3755;
+    cursor: pointer;
+}
+.container-4 button{
+    color: white;
+    background-color: #ff3755;
+    border-radius: 8px;
+    border: none;
+    padding: 15px 40px 15px 40px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.container-4>div:nth-child(3){
+    margin-top: 40px;
+}

@@ -1,0 +1,43 @@
+.container-6{
+    width: 88%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+.container-6>div>ul{
+    list-style: none;
+    line-height: 30px;
+    color: rgb(87, 86, 86);
+    text-align: start;
+}
+.container-6>div>ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Followus>div>div>img{
+    width:50%;
+    height: 50%;
+}
+.Followus>div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.Followus>div>div:hover{
+    cursor: pointer;
+}
+.Followus>div>div{
+    height: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    background-color: rgb(184, 183, 183);
+    margin-top: 10px;
+}
+.Followus{
+    display: flex;
+flex-direction: column;
+}
