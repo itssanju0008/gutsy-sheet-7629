@@ -4,10 +4,6 @@ import Dropdown from './Dropdown'
 import {HamburgerIcon} from "@chakra-ui/icons";
 
 import { useState,useEffect } from 'react';
-
-import { useState } from 'react';
-
-
 import Items from './Dropdown-items';
 
 const Navbar=()=>{

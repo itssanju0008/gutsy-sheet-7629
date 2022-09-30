@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 .container-5{
     background-color: #ff3755;
     margin-top: 40px;
     padding: 20px 0px 40px 0px;
+}
+.container-5 p{
+    font-family: 'Kalam', cursive;
 }
 .container-5>div:nth-child(2){
     display: flex;
