@@ -1,0 +1,50 @@
+.navbar{
+    display: flex;
+}
+.navbar>div:nth-child(1){
+width:37%;
+text-align: start;
+padding-left: 20px;
+}
+.navbar>div button{
+    border: none;
+    background-color:white;
+    font-size: 50px;
+    color:#ff3755
+}
+.navbar>div button:hover{
+    cursor: pointer;
+}
+.navbar.sticky{
+    position: sticky;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    top:0px;
+    left:0px;
+}
+.data{
+    width:70%;
+    text-align: start;
+    line-height: 30px;
+}
+.data-list{
+    display: flex;
+}
+
+.data-list>div:nth-child(2){
+    display:flex;
+    flex-direction: column;
+}
+.data-list>div:nth-child(1){
+    width: 100%;
+}
+.data-list-item{
+    background-color: rgb(206, 206, 206);
+    border-radius: 12px;
+    height:300px;
+    margin-left: 200px;
+    margin-right: 50px;
+    position: sticky;
+    top: 70px;
+}

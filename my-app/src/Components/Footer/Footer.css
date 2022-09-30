@@ -1,9 +1,12 @@
 .container-6{
-    width: 88%;
+    /* width: 100%; */
+    padding-left: 6%;
+    padding-right: 6%;
     display: flex;
     margin: auto;
     justify-content: space-around;
     padding-bottom: 60px;
+    background-color: rgb(207, 202, 202);
 }
 .container-6>div>ul{
     list-style: none;
