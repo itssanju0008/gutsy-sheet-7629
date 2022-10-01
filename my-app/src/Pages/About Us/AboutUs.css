@@ -47,4 +47,23 @@ padding-left: 20px;
     margin-right: 50px;
     position: sticky;
     top: 70px;
+    z-index: 10;
+}
+.heading1.head1{
+    color: #ff3755;
+}
+.heading2.head2{
+    color:#ff3755
+}
+.heading3.head3{
+    color: #ff3755;
+}
+.heading4.head4{
+    color:#ff3755
+}
+.heading5.head5{
+    color: #ff3755;
+}
+.heading6.head6{
+    color:#ff3755
 }

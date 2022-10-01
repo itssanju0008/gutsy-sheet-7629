@@ -5,10 +5,21 @@ import Footer from "../../Components/Footer/Footer";
 import Copyright from "../../Components/Footer/Copyright";
 export default function AboutUs(){
     const [sticky,setSticky]=useState(false);
+    const [head1,setHead1]=useState(false)
+    const [head2,setHead2]=useState(false)
+    const [head3,setHead3]=useState(false)
+    const [head4,setHead4]=useState(false)
+    const [head5,setHead5]=useState(false)
+    const [head6,setHead6]=useState(false)
     useEffect(()=>{
         const  handleScroll=()=>{
             setSticky(window.scrollY>2)
-
+            setHead1(window.scrollY>5 && window.scrollY<300)
+            setHead2(window.scrollY>300 && window.scrollY<600)
+            setHead3(window.scrollY>600 && window.scrollY<850)
+            setHead4(window.scrollY>850 && window.scrollY<1000)
+            setHead5(window.scrollY>1000 && window.scrollY<1300)
+            setHead6(window.scrollY>1300 )
         }
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
@@ -23,12 +34,12 @@ return (
     </div>
 <div className="data-list" >
            <div className="data-list-item" >
-            <h3>About us</h3>
-            <h3>Our Review Board</h3>
-            <h3>Editorial Policies</h3>
-            <h3>Our Team</h3>
-            <h3>Our Policies</h3>
-            <h3>Contact Us</h3>
+            <h3 className={head1? "heading1 head1":"heading1"} >About us</h3>
+            <h3 className={head2? "heading2 head2":"heading2"}>Our Review Board</h3>
+            <h3 className={head3? "heading3 head3":"heading3"}>Editorial Policies</h3>
+            <h3 className={head4? "heading4 head4":"heading4"}>Our Team</h3>
+            <h3 className={head5? "heading5 head5":"heading5"}>Our Policies</h3>
+            <h3 className={head6? "heading6 head6":"heading6"}>Contact Us</h3>
            </div>
            <div>
            <div className="data">
