@@ -9,11 +9,10 @@ import PinkOne from './Components/MiddleSection/middle_2nd';
 import News from './Components/MiddleSection/middle_3rd';
 import Medical from './Components/MiddleSection/middle_4th';
 import Testonomial from './Components/MiddleSection/middle_5th';
-import AboutUs from './Pages/About Us/AboutUs';
 function App() {
   return (
     <div className="App">
-     {/* <Navbar/>
+     <Navbar/>
      <Middle_1 />
      <WhiteOne/>
      <PinkOne/>
@@ -24,8 +23,7 @@ function App() {
      <Medical/>
      <Testonomial/>
      <Footer/>
-     <Copyright/> */}
-     <AboutUs/>
+     <Copyright/>
     </div>
   );
 }

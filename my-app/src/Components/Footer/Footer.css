@@ -1,5 +1,6 @@
 .container-6{
     /* width: 100%; */
+    z-index: 20;
     padding-left: 6%;
     padding-right: 6%;
     display: flex;

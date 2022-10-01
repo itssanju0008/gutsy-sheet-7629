@@ -1,4 +1,5 @@
 import "./Dropdown.css"
+import {Link} from "react-router-dom"
 import Dropdown_div from "./Dropdown-div"
 export default function  Dropdown(){
 
@@ -92,7 +93,7 @@ data:[
                 <span class="divider">|</span>
                 <li>PRODUCTS</li>
                 <span class="divider">|</span>
-                <li>ABOUT US</li>
+                < li>ABOUT US</li>
             </ul>
           </div>
           
