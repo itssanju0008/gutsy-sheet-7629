@@ -93,7 +93,9 @@ data:[
                 <span class="divider">|</span>
                 <li>PRODUCTS</li>
                 <span class="divider">|</span>
-                < li>ABOUT US</li>
+                < li><Link to="/AboutUs"  style={{color:"black",textDecoration:"none"}} > ABOUT US</Link>
+               
+                </li>
             </ul>
           </div>
           
