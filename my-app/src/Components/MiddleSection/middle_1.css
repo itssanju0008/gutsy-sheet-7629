@@ -22,4 +22,7 @@ grid-template-columns: repeat(3,1fr);
 #socialIntro div:nth-child(1){
     display: block;
 }
+.follower{
+    display: none;
+}
 }

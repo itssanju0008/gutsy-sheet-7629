@@ -42,12 +42,14 @@ padding-left: 20px;
 .data-list-item{
     background-color: rgb(206, 206, 206);
     border-radius: 12px;
-    height:300px;
+    height:20%;
     margin-left: 200px;
     margin-right: 50px;
     position: sticky;
     top: 70px;
     z-index: 10;
+    padding-left: 15px;
+    padding-bottom: 10px;
 }
 .heading1.head1{
     color: #ff3755;
@@ -66,4 +68,15 @@ padding-left: 20px;
 }
 .heading6.head6{
     color:#ff3755
+}
+@media all and (min-width:320px) and (max-width:767px){
+    .data-list-item{
+        display: none;
+    }
+    .data{
+        width:90%;
+        margin: auto;
+        text-align: start;
+        line-height: 30px;
+    }
 }

@@ -16,7 +16,7 @@ export default function Middle_1(){
                 <h2>How To Wear Beret Without Looking Ridiculous</h2>
             </div>
             </div>
-            <img src="https://durgeshrai633.github.io/stylecraze.com/img/faceinsta.jpg" alt="d" />
+            <img className="follower" src="https://durgeshrai633.github.io/stylecraze.com/img/faceinsta.jpg" alt="d" />
         </div>
     )
 }

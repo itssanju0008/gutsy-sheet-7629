@@ -41,5 +41,13 @@
 .smallerOne div{
     width:31%
 }
-
+@media all and (min-width:320px) and (max-width:767px){
+    .biggerOne{
+        display: flex;
+        flex-direction: column;
+    }
+    .biggerOne>div:nth-child(2){
+        width: 88%;
+    }
+}
 

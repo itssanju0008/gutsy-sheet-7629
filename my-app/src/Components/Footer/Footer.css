@@ -45,3 +45,24 @@
     display: flex;
 flex-direction: column;
 }
+@media all and (min-width:320px) and (max-width:767px){
+    .container-6{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .container-6>div>ul{
+        text-align: center
+    }
+    .Followus>div{
+        display: grid;
+        margin: auto;
+        /* width: 30%; */
+        grid-template-columns: repeat(5,1fr);
+        gap: 20px;
+    }
+    .Followus p{
+        text-align: center;
+        margin-left: 40px;
+    }
+}
